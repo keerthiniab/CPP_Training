@@ -1,0 +1,49 @@
+*** Note *** 
+=============
+Example codes are provided for each topic covered. Note that Each program folders 
+name starts with same number mentioned for each topics.
+
+=====================================================================================
+===================================== TOPICS ========================================
+=====================================================================================
+
+OOPS:
+=====
+12. Static data members in C++
+13. Some interesting facts about static member functions
+	1. static member functions do not have this pointer.
+	2. A static member function cannot be virtual
+	3. Member function declarations with the same name 
+	   and the name parameter-type-list cannot be overloaded 
+           if any of them is a static member function declaration
+	4. A static member function can not be declared const, volatile, or const volatile.
+
+14. Friend class and function
+15. Local Class
+16. Nested Classes
+17. Simulating final class
+
+Function Overloading:
+=====================
+1. Function Overloading
+2. Functions that can’t be overloaded
+3. Function overloading and const keyword
+4. Function overloading and return type
+5. Does overloading work with Inheritance?
+6. Can main() be overloaded
+7. Function Overloading and float
+
+
+Facts:
+======
+1) A local class type name can only be used in the enclosing function. For example, in the following program, declarations of t and tp are valid in fun(), but invalid in main().
+
+2) All the methods of Local classes must be defined inside the class only. For example, program 1 works fine and program 2 fails in compilation.
+
+3) A Local class cannot contain static data members. It may contain static functions though. For example, program 1 fails in compilation, but program 2 works fine.
+
+4) Member methods of local class can only access static and enum variables of the enclosing function. Non-static variables of the enclosing function are not accessible inside local classes. For example, the program 1 compiles and runs fine. But, program 2 fails in compilation.
+
+5) Local classes can access global types, variables and functions. Also, local classes can access other local classes of same function.. For example, following program works fine.
+
+
