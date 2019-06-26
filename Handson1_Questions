@@ -1,0 +1,28 @@
+*** Handson C++ ***
+
+Pointers and References:
+========================
+1. Write a C++ program to print hello world
+2. Program to input int, float, double, char, char[], string and print the same.
+3. Program to print the address of variable
+4. Program to declare pointer and assign it to point to a variable , print value pointed by pointer
+5. Program to change value pointed by pointer
+6. Program to assign array to a pointer, and print the array using both pointer and pointer arithmetic (ptr[i] and *ptr)
+7. Print all the elements of array using pointers
+	int nums[2][3]  =  { {16, 18, 20}, {25, 26, 27} };
+8. Write a swap function in C++ using pointers
+9. Write a C++ program illustrating reference
+10. Write swap function in C++ using reference
+11. C++ program to demonstrate differences between pointer and reference
+12. C++ code to demonstrate NaN exception
+13. Program using nullptr
+
+Dyanamic Memory Allocations:
+============================
+14. C++ program to illustrate dynamic allocation and deallocation of memory using new and delete
+15. Program to illustrate malloc, calloc , realloc, free - check memory initialisation  
+
+Functions:
+==========
+16. Program to write Sum() function to sum max 4 values using default arguments
+17. Program to get upper round off and lower round off of a double variable 
