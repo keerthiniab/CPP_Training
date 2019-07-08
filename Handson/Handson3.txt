@@ -1,0 +1,22 @@
+*** Note ***
+
+Polymorphism - Operator Overriding:
+===================================
+1. Write a Program to create class "Complex"
+    * Private members - real, imag
+    * Parameterised Constructor - Complex(int r = 0, int i =0)
+    * Overload operator + to perform - Complex c3 = c1 + c2
+    * Function to print complex object - cout << real << " + i" << imag << endl;
+
+Inheritence:
+============
+1. Write a base class "Shape"
+    * data members - width, height
+    * member functions - setHeight, setWidth
+2. Write a derived class "Rectangle" derived from base class "Shape"
+    * member function - getArea() to return area of rectangle
+    
+Programs:
+=========
+1. Classes and Objects
+2. Copy Constructor and Operator overloading
