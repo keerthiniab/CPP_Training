@@ -1,0 +1,35 @@
+*** Note ***
+
+Virtual Functions:
+==================
+1. Create a Base class "Parent" , and child class "Child"
+	* Write a virtual function "func1()" in "Parent"
+	* Override the "func1()" in "Child" class
+	* Change the access of Parent::func1() to public and Child::func1() to private
+	  	Try calling func() from base class object and derived class object // Observer what happens and which func() is called
+	* Change the access of Parent::func1() to private and Child::func1() to public
+		Try calling func() from base class object and derived class object // Observer what happens and which func() is called
+
+2. Create a class A
+	* Overload assignment operator
+	* Create objects of class A a, b, c, d;
+	* Try a = b = c = d; // Observe how it works
+
+3. Create an empty class
+	* create an instance of class
+	* print the sizeof that object
+	* add a virtual function to the class
+	* print the sizeof that object
+
+4. Create a Base and derived class
+	* Create an object of both base and derived class
+	* Print the RTTI of the object created using typeid function
+
+5. Create a class 
+	* Add constructor and make it virtual
+	* create an object of the class and compile // Observe the result
+	* create a pointer to the class compile // Observe the result
+	* create a reference to the class compile // Observe the result
+
+
+
